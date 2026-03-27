@@ -21,7 +21,7 @@ namespace SplatoonScriptsOfficial.Duties.Endwalker.The_Omega_Protocol
     {
         public override HashSet<uint> ValidTerritories => [1122];
 
-        public override Metadata? Metadata => new(10, "NightmareXIV");
+        public override Metadata? Metadata => new(11, "NightmareXIV/Pug");
 
         private Config Conf => Controller.GetConfig<Config>();
 
